@@ -1,7 +1,8 @@
-streamlit
-openai
-langchain
-faiss-cpu
-tiktoken
-beautifulsoup4
-requests
+ streamlit
+ openai
+ langchain
+ faiss-cpu
++langchain-community
+ beautifulsoup4
+ requests
+ tiktoken
