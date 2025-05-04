@@ -1,7 +1,7 @@
- streamlit
- openai
- langchain
- chromadb
- beautifulsoup4
- requests
- tiktoken
+gradio
+requests
+beautifulsoup4
+faiss-cpu
+sentence-transformers
+transformers
+torch                      # installs CPU‑only PyTorch
