@@ -1,9 +1,7 @@
 streamlit
 openai
 langchain
-llama-index
 faiss-cpu
 tiktoken
 beautifulsoup4
 requests
-html2text
