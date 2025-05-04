@@ -2,7 +2,7 @@
  openai
  langchain
  faiss-cpu
-+langchain-community
+langchain-community
  beautifulsoup4
  requests
  tiktoken
