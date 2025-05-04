@@ -1,10 +1,9 @@
 from langchain.vectorstores import FAISS
-from langchain.embeddings import OpenAIEmbeddings
+from langchain.embeddings.openai import OpenAIEmbeddings
 
 def build_vector_store(documents):
     embedder = OpenAIEmbeddings()
-    db = FAISS.from_documents(documents, embedder)
-    return db
+    return FAISS.from_documents(documents, embedder)
 
 def retrieve_documents(db, query, k=4):
     return db.similarity_search(query, k=k)
