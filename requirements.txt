@@ -1,8 +1,7 @@
  streamlit
  openai
  langchain
- faiss-cpu
-langchain-community
+ chromadb
  beautifulsoup4
  requests
  tiktoken
